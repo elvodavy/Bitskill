@@ -1,0 +1,33 @@
+.rowpadding {
+    padding: 70px 20px 50px 20px;
+}
+
+.hero-heading {
+    color: black;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.hero-text {
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.column-padding {
+    padding-top: 90px;
+}
+
+.call-to-action {
+    padding: 5px 15px 5px 15px;
+    color: white;
+    background-color: black;
+    border: 0px;
+    transition: background-color 0.8s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.call-to-action:hover {
+    padding: 5px 15px 5px 15px;
+    color: white;
+    background-color: #1576DE;
+}

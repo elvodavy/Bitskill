@@ -1,0 +1,36 @@
+    .navbg {
+        background-color: black;
+        color: white;
+    }
+    
+    .navbar {
+        color: #fff;
+    }
+    
+    a.nav-link {
+        color: #fff;
+        margin-right: 50px;
+    }
+    
+    a.nav-link:hover {
+        color: #1576DE;
+    }
+    
+    .navbar-toggler-icon {
+        background-color: #fff;
+        border-radius: 1px;
+        padding: 5px;
+    }
+    
+    .dropdown-toggle {
+        color: #fff;
+    }
+    
+    .center-links {
+        margin-left: -50px;
+    }
+    
+    .account-icon {
+        right: 20px;
+        top: 25px;
+    }
