@@ -1,7 +1,11 @@
 import { React } from 'react';
 import Navbar from '../../navbar/navbar';
+import { Link } from 'react-router-dom';
+
+//Images
 import image1 from '../../../assets/image1.png';
 import './heroeSection.css'
+
 const HeroeSection = () => {
     return(
             <div className='container-fluid'>
@@ -15,13 +19,19 @@ const HeroeSection = () => {
                             <p className='hero-text'>Bitskill is the definitive system by which universities, businesses, and training providers come together to permanently certify & guarantee skills thanks to blockchain technology.</p>
                             <br/>
                             <br/>
-                            <button className='call-to-action'>Try Bitskill</button>
+                            <Link to='/createAccount'>
+                                <button className='start-button'>Try Bitskill</button>
+                            </Link>
                         </div>
                         <div className='col-md-6'>
-                        
-                        <a class="image-1" href="#"><img src={image1} className="img-fluid"/></a>
-                    
-                            
+                            <img src={image1} className="img-fluid" alt='hero-section-img'/>
+                        </div>
+                        <div className="solutions-intro">
+                            <h2 className="text-center">Bitskill</h2>
+                            <p className="text-center">
+                                Via Bitskill, anyone may save any kind of qualifications and 
+                                accomplishments using Blockchain technology. Get a free trial of the Bitskill platform.
+                            </p>
                         </div>
                     </div>
                 </div>               

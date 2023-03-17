@@ -18,7 +18,7 @@
     
     .navbar-toggler-icon {
         background-color: #fff;
-        border-radius: 1px;
+        border-radius: 4px;
         padding: 5px;
     }
     
@@ -29,8 +29,31 @@
     .center-links {
         margin-left: -50px;
     }
+
+    .navbar-collapse{
+        margin-left: 20%;
+    }
     
     .account-icon {
         right: 20px;
         top: 25px;
+        margin-left: 220px;
+    }
+
+    @media screen and (max-width: 990px) {
+        div .center-links {
+            margin-left: 0px;
+        }
+
+        div .center-links li{
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+
+        div .account-icon {
+            right: 20px;
+            top: 25px;
+            margin-left: 0px;
+        }
+    
     }

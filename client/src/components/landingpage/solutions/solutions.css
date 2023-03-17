@@ -1,0 +1,22 @@
+.solutions-intro h2{
+    font-weight: 700;
+}
+
+.solutions-container{
+    background-color: black;
+}
+
+.row-padding{
+    padding: 100px 20px 100px 20px;
+}
+
+.solutions-card{
+    color: black;
+    padding: 35px 20px 30px 20px;
+    margin: 10px 0 10px 0;
+}
+
+.solution-card-heading{
+    margin: 5px;
+    font-weight: 700;
+}
