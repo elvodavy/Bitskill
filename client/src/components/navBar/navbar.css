@@ -1,0 +1,112 @@
+    .navbg {
+        background-color: black;
+        color: white;
+    }
+    
+    .navbar {
+        color: #fff;
+    }
+    
+    a.nav-link {
+        color: #fff;
+        margin-right: 50px;
+    }
+    
+    a.nav-link:hover {
+        color: #1576DE;
+    }
+    
+    .navbar-toggler-icon {
+        background-color: #fff;
+        border-radius: 4px;
+        padding: 5px;
+    }
+    
+    .dropdown-toggle {
+        color: #fff;
+    }
+    
+    .center-links {
+        margin-left: -50px;
+    }
+
+    .navbar-collapse{
+        margin-left: 20%;
+    }
+    
+    .account-icon {
+        right: 20px;
+        top: 25px;
+        margin-left: 220px;
+    }
+
+    .profilePic{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        margin-top: 5px;
+        filter: hue-rotate(180deg);
+        transition: filter 0.6s cubic-bezier(0.55, 0.09, 0, 0.88);
+    }
+    
+    .profilePic:hover{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        margin-top: 5px;
+        filter: hue-rotate(60deg);
+    }
+    
+    .profile-dropdown{
+        position: absolute;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.63);
+        color: white;
+        border-radius: 10px;
+        width: 20%;
+        margin-top: 10px;
+    }
+    
+    .profile-link{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        padding: 10px;
+        margin: 10px 0 10px 0;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+        width: 100%;
+        transition: background-color 0.6s cubic-bezier(0.55, 0.09, 0, 0.88);
+    
+    }
+    
+    .profile-link:hover{
+        text-decoration: none;
+        color: #1576DE;
+        font-size: 14px;
+        padding: 10px;
+        margin: 10px 0 10px 0;
+        background-color: rgba(0, 0, 0, 0.226);
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 990px) {
+        div .center-links {
+            margin-left: 0px;
+        }
+
+        div .center-links li{
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+
+        div .account-icon {
+            right: 20px;
+            top: 25px;
+            margin-left: 0px;
+        }
+    
+    }

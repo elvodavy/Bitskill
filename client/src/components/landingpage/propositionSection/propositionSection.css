@@ -1,0 +1,17 @@
+.proposition-container{
+    padding: 60px 0px 60px 0;
+    background-color: #1576de56;
+    margin-top: 250px;
+}
+
+.proposition-img{
+    margin-top: -100px;
+}
+
+.proposition-heading{
+    color: black;
+}
+
+.propositionText{
+    padding: 80px;
+}

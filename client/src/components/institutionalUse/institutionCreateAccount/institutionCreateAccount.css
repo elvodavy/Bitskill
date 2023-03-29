@@ -1,0 +1,36 @@
+.signUp-form-h3{
+font-weight: 600;
+}
+
+.create-account-option{
+    border: 1px solid black;
+    padding: 6px 30px 6px 30px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    transition: background-color 0.8s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.create-account-option:hover{
+    border: 1px solid black;
+    padding: 6px 30px 6px 30px;
+    background-color: #1576de27;
+    border-radius: 5px;
+}
+
+.img-spacing{
+    margin-right: 10px;
+}
+
+.word-spacing{
+    margin-right: 10px;
+}
+
+.link-btn{
+    text-decoration: none;
+}
+
+.termsLink{
+    text-decoration: none;
+}

@@ -1,0 +1,145 @@
+body{
+    overflow-x: hidden;
+}
+
+div.container-fluid {
+    padding: 0;
+}
+
+.input{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    outline: 1px;
+    outline-color: #1576DE;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 10px 5px 10px;
+    transition: background-color 0.7s cubic-bezier(0, 1.43, 0.71, 0.94), border 0.7s cubic-bezier(0, 1.43, 0.71, 0.94), border-radius 0.7s cubic-bezier(0, 1.43, 0.71, 0.94);
+}
+
+.input::placeholder{
+    font-size: 14px;
+}
+
+.input:hover{
+    width: 100%;
+    background-color: #1576de1a;
+    border: 1px solid #1576de8c;
+    border-radius: 5px;
+}
+
+.call-to-action{
+    width: 100%;
+    background-color: #1576DE;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 15px 5px 15px;
+    color: #fff;
+    transition: background-color 0.8s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.call-to-action:hover{
+    width: 100%;
+    background-color: #000000;
+}
+
+.solution-select-container{
+    box-shadow: 10px 3px 20px rgba(0, 0, 0, 0.3);
+    padding: 50px 60px 50px 60px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.solution-select-container{
+   color: #000;
+}
+
+.hyper-link{
+    text-decoration: none;
+}
+
+.add-button{
+    background-color: #1576DE;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 15px 5px 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.8s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.add-button:hover{
+    background-color: #000000;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 15px 5px 15px;
+    color: #fff;
+}
+
+.add-input-div{
+    margin-bottom: 20px;
+}
+
+.btn-icon{
+    margin-left: 10px;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+.search-btn{
+    margin-left: -30px;
+    margin-top: 1px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0.7;    
+}
+
+.search-btn:hover{
+    opacity: 1;
+    margin-left: -30px;
+    margin-top: 1px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.view-list li{
+    color: #1576DE;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.view-list-link{
+    color: #1576DE;
+    text-decoration: none;
+}
+
+#add-btn{
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+}
+
+#remove-btn{
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    background-color: #DE1515;
+    margin-left: 10px;
+
+}
+
+#remove-btn:hover{
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    background-color: #00000094;
+    margin-left: 10px;
+}
+
+.image.png{
+    color: #DE1515;
+}
+
+.error{
+    color: #DE1515;
+}

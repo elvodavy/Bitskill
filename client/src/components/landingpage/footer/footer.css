@@ -1,0 +1,20 @@
+.footer-bg{
+    margin-top: 150px;
+    background-color: black;
+    padding: 100px 0 100px 0;
+    width: 100%;
+}
+
+.footer-content-padding{
+    padding: 80px 0 80px 0px;
+}
+
+.footer-link{
+    color: white;
+    text-decoration: none;
+
+}
+
+.Help-Links h5{
+    color: #1576de;
+}

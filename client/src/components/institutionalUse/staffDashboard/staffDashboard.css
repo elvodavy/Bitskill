@@ -1,0 +1,57 @@
+#bgcolor{
+    background-color: black;
+    padding: 10px 0px 50px 0px;
+}
+
+.dashboard-navigation{
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #ffffff2d;
+ }
+
+.heading-div{
+    background: #1576DE;
+    padding: 20px 15px 20px 15px;
+    font-weight: 700;
+    border-radius: 20px 20px 0 0;
+}
+
+.heading-div h3{
+    font-weight: 700;
+    color: white;
+}
+
+.dashboard-navlinks{
+    padding: 20px;
+    color: #1576DE;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.d-link{
+    text-decoration: none;
+    color: #1576DE;
+
+}
+
+.d-link:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.data-card{
+    background-color: #ffffff2d;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.number{
+    margin-top: 10px;
+    color: #1576DE;
+}
+
+.dashboard-Col{
+    padding: 30px 15px 30px 15px;
+}

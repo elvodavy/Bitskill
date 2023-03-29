@@ -1,0 +1,23 @@
+#search{
+    width: 100%;
+    outline: 1px;
+    outline-color: #1576DE;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.76);
+    padding: 3px 10px 3px 10px;
+}
+
+#search:hover{
+    width: 100%;
+    outline: 1px;
+    outline-color: #1576DE;
+    border-radius: 5px;
+    border: 1px solid #1576DE;
+    padding: 3px 10px 3px 10px;
+}
+
+.inner-display-card{
+    padding: 20px 10px 20px 10px;
+    border: 0.3px solid rgba(0, 0, 0, 0.281);
+    border-radius: 5px;
+}
