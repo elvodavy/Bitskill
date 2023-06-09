@@ -20,28 +20,27 @@ const Navbar = () => {
                     <div class=" d-flex justify-content-center">
                         <ul class="navbar-nav center-links">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                                 Solutions
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Student</a>
+                                <a class="dropdown-item" href="/personalAccountSignUp">Student</a>
                                 <Link class="dropdown-item" to="/institutionalUse">Institution</Link>
-                                <a class="dropdown-item" href="#">Company</a>
-                                <a class="dropdown-item" href="#">Artist</a>
+                                <a class="dropdown-item" href="/companySignUp">Company</a>
+                                <a class="dropdown-item" href="/ArtistSignUp">Artist</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="/products" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                                 Products
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Bitskill acclaim</a>
-                                <a class="dropdown-item" href="#">Bitskill talent match</a>
-                                <a class="dropdown-item" href="#">Bitskill workforce</a>
+                                <a class="dropdown-item" href="/bitskillAcclaim">Bitskill acclaim</a>
+                                <a class="dropdown-item" href="/bitskillTalentMatch">Bitskill talent match</a>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
+                                <a class="nav-link" href="aboutUs">About Us</a>
                             </li>
                         </ul>
                         <div className="linkContainer account-icon">

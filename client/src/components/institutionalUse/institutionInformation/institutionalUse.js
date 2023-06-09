@@ -43,6 +43,7 @@ const InstitutionalUse = () => {
                         document.write("e");
                         <option value="Higher Education">Higher Education</option>
                         <option value="Highschool">Highschool</option>
+                        <option value="Primary">Primary School</option>
                         </select>
                         <br/>
                         <br/>

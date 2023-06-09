@@ -1,5 +1,5 @@
     .navbg {
-        background-color: black;
+        background: linear-gradient(90deg, black, #07407c, #1576DE);
         color: white;
     }
     

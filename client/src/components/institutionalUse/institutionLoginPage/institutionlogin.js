@@ -103,12 +103,19 @@ const InstitutionLogin = () => {
                                 </Link>
                                 <br/>
                                 <br/>
-                                <p>
-                                Don't have an account?{" "}
-                                <Link to="/createAccount" className="termsLink">
-                                    <br/>create account
+                                <div className='d-flex'>
+                                    <p>
+                                    Don't have an account?{" "}
+                                    <Link to="/institutionCreateAccount" className="termsLink">
+                                        <br/>create account
+                                    </Link>
+
+                                    </p>
+                                    
+                                </div>
+                                <Link style={{marginRight: "10px"}} className="termsLink" to="/forgotPassword">
+                                    Forgot Password
                                 </Link>
-                                </p>
                             </div>
                             <div className='col-md-5 d-flex justify-content-center'>
                                 <div>
